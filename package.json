@@ -1,16 +1,20 @@
 {
   "name": "ts-fp-school",
-  "version": "1.0.0",
+  "private": false,
+  "version": "0.0.0",
   "engines": {
     "node": "20.14.0"
   },
   "description": "TypeScriptを用いた関数型プログラミングの講座",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "5.4.5",
+    "vite": "5.2.13"
   },
   "author": "50ra4",
   "license": "MIT"
