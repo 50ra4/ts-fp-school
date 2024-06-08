@@ -1,0 +1,17 @@
+{
+  "name": "ts-fp-school",
+  "version": "1.0.0",
+  "engines": {
+    "node": "20.14.0"
+  },
+  "description": "TypeScriptを用いた関数型プログラミングの講座",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "50ra4",
+  "license": "MIT"
+}
